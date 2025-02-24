@@ -6,7 +6,7 @@ with open('README.rst','r',encoding='utf-8') as f:
 
 setup(
     name='Smail',
-    version='0.1.8',
+    version='0.1.9',
     description='Python send mail',
     author='Alien',
     author_email='Aliencn@outlook.com',
