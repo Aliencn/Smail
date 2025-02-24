@@ -86,7 +86,6 @@ class Smail():
                 with open(filepath,'rb') as f:file=f.read()
                 attachment = MIMEBase(maintype,subtype)
                 attachment.set_payload(file)
-                attachment.add_header('Content-Disposition', 'attachment', filename=filename)
                 encoders.encode_base64(attachment)
 
         attachment.add_header('Content-Disposition', 'attachment', filename=filename)
